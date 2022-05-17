@@ -4,16 +4,16 @@
   
   
   <entry>
-    <title>贪吃蛇</title>
+    <title>用三大件实现“贪吃蛇”小游戏</title>
     <link href="/2022/05/17/%E8%B4%AA%E5%90%83%E8%9B%87/"/>
     <url>/2022/05/17/%E8%B4%AA%E5%90%83%E8%9B%87/</url>
     
-    <content type="html"><![CDATA[<h2 id="在这里要分享一下自己用三大件写出来的贪吃蛇QAQ"><a href="#在这里要分享一下自己用三大件写出来的贪吃蛇QAQ" class="headerlink" title="在这里要分享一下自己用三大件写出来的贪吃蛇QAQ"></a>在这里要分享一下自己用三大件写出来的贪吃蛇QAQ</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h5 id="作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。"><a href="#作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。" class="headerlink" title="作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。"></a>作为一个前端小白，在b站学习完pink老师讲的动画原理之后，我脑中就有了写一个小游戏的想法。然后发现贪吃蛇好像还挺好实现的，然后就动手开始试着写了一下。</h5><h2 id="实现过程"><a href="#实现过程" class="headerlink" title="实现过程"></a>实现过程</h2><h3 id="用-HTML-和-CSS-构建场景和物件"><a href="#用-HTML-和-CSS-构建场景和物件" class="headerlink" title="用 HTML 和 CSS 构建场景和物件"></a>用 HTML 和 CSS 构建场景和物件</h3><h4 id="完整-HTML-代码"><a href="#完整-HTML-代码" class="headerlink" title="完整 HTML 代码"></a>完整 HTML 代码</h4><h4 id="完整-CSS-代码"><a href="#完整-CSS-代码" class="headerlink" title="完整 CSS 代码"></a>完整 CSS 代码</h4><h3 id="用-JavaScript-控制各种功能的实现"><a href="#用-JavaScript-控制各种功能的实现" class="headerlink" title="用 JavaScript 控制各种功能的实现"></a>用 JavaScript 控制各种功能的实现</h3><h4 id="蛇头的生成和控制"><a href="#蛇头的生成和控制" class="headerlink" title="蛇头的生成和控制"></a>蛇头的生成和控制</h4><h4 id="障碍物的生成"><a href="#障碍物的生成" class="headerlink" title="障碍物的生成"></a>障碍物的生成</h4><h4 id="目标物的生成及被吃到后的重置"><a href="#目标物的生成及被吃到后的重置" class="headerlink" title="目标物的生成及被吃到后的重置"></a>目标物的生成及被吃到后的重置</h4><h4 id="吃到目标物后蛇身的增长"><a href="#吃到目标物后蛇身的增长" class="headerlink" title="吃到目标物后蛇身的增长"></a>吃到目标物后蛇身的增长</h4><h4 id="控制蛇身跟着蛇头走"><a href="#控制蛇身跟着蛇头走" class="headerlink" title="控制蛇身跟着蛇头走"></a>控制蛇身跟着蛇头走</h4><h4 id="判断是否死亡"><a href="#判断是否死亡" class="headerlink" title="判断是否死亡"></a>判断是否死亡</h4><h4 id="死亡后的结算和重启"><a href="#死亡后的结算和重启" class="headerlink" title="死亡后的结算和重启"></a>死亡后的结算和重启</h4><h4 id="如何控制当有蛇身时，不能直接往反方向走"><a href="#如何控制当有蛇身时，不能直接往反方向走" class="headerlink" title="如何控制当有蛇身时，不能直接往反方向走"></a>如何控制当有蛇身时，不能直接往反方向走</h4><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h5 id="完整的-JavaScript-的代码可以去我的-Github-取。"><a href="#完整的-JavaScript-的代码可以去我的-Github-取。" class="headerlink" title="完整的 JavaScript 的代码可以去我的 Github 取。"></a>完整的 JavaScript 的代码可以去我的 Github 取。</h5>]]></content>
     
     
     <categories>
       
-      <category>js</category>
+      <category>JavaScript</category>
       
     </categories>
     
