@@ -1,7 +1,7 @@
-/* global CONFIG */
+/* global CONFIG, jQuery */
 
 (function() {
-  // Modified from [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
+  // Modify by [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
   function localSearchFunc(path, searchSelector, resultSelector) {
     'use strict';
     // 0x00. environment initialization
